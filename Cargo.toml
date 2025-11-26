@@ -1,0 +1,11 @@
+[package]
+name = "zstd"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "zstd"
+crate-type = ["cdylib"]
+
+[dependencies]
+zstd = "0.11"
